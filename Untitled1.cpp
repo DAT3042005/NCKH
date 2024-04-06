@@ -27,11 +27,67 @@ int main()
     }
     
     
-    printf("\nMang da sap xep la: ");
+    printf("\nMang da sap xep la: \n");
     for(int i = 0; i < n; i++){
         printf("%5d", a[i]);
     }
     
- }
-   
+  
+    int x;
+    printf("\nNhap gia tri x can tim:");
+    scanf("%d", &x);
+    printf("\nVi tri cua x trong mang la:");
+    for(int i = 0; i<n; i++)
+    {
+        if(a[i]==x)
+        {
+            printf("%d \t",i);
+        
+        }
+        
+     
+  }
+      else{
+      	printf("ko tim thay");}
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
